@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'rspec'
+
+gem 'fluentd'
+gem 'fluentspec', path: '../'
+
+gem 'fluent-plugin-concat'
+gem 'fluent-plugin-kinesis'
+gem 'fluent-plugin-kubernetes_metadata_filter'
+gem 'fluent-plugin-rewrite-tag-filter'
+gem 'fluent-plugin-slack'
+
+gem 'pry'

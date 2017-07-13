@@ -1,0 +1,19 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  DisplayCopNames: true
+  Exclude:
+    - 'gemgiles/*'
+
+Metrics/LineLength:
+  Max: 116
+  Exclude:
+    - 'spec/**/*'
+    - 'example/spec/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'example/spec/**/*'
+
+Style/Documentation:
+  Enabled: false
