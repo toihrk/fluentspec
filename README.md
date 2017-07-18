@@ -1,5 +1,7 @@
 # fluentspec
 
+[![Build Status](https://travis-ci.org/toihrk/fluentspec.svg?branch=master)](https://travis-ci.org/toihrk/fluentspec)
+
 fluentspec is testing tool for your fluentd configuration file.
 
 ## Installation
